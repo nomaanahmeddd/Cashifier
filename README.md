@@ -42,8 +42,11 @@ Cashifier - A price notifier using web scraping is a tool that monitors the pric
 
 ## Dependies
 python: version 3.11.3
+
 HTML5
+
 Bootstrap
+
 javascript
 
 ## License
