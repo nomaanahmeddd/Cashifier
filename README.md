@@ -5,7 +5,7 @@ Cashifier - A price notifier using web scraping is a tool that monitors the pric
 
 ## Screenshots
 
-![App Screenshot](https://github.com/nomaanahmeddd/Cashifier/blob/main/Screenshot%202023-05-21%20182639.png)
+![App Screenshot](https://github.com/nomaanahmeddd/Cashifier/blob/main/Screenshot%202023-05-22%20182639.png)
 
 # How to Use
 1.Clone the repository to your local machine.
