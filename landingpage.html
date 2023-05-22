@@ -36,44 +36,6 @@
 </head>
 
 <body>
-  <!-- <a href="./landingpage.html"><iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
-    onload="if(submitted){window.location='./landingpage.html'}"></iframe></a>  
-    <div class="main">
-        <div class="sidepanel">
-            <img src="./img/hero.png" alt="" class="img1" width="200px" height="190px"><br><br>
-            <h3 class="head1">
-                 Set a specific target price <br>to trigger an alert via email.
-            </h3>
-            <img src="./img/online shopping.png" alt="" class="img2" width="200px" height="160px"><br><br>
-            <h3 class="head2">Track the prices of multiple products <br> at the same
-                time.
-            </h3>
-            <img src="./img/young man shopping online.png" alt="" class="img3" width="150px" height="150px">
-            <h3 class="head3">Buy the product when <br>price goes down.
-            </h3>
-        </div>
-        <div class="mainpanel">
-            <img src="./img/Screenshot 2023-01-07 193733.jpg" alt="logo" class="logo">
-
-
-            
-            <form id="formid"
-                action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSepAUE7_7EXgi67QwcDEl3QuAx6KpnxXg4-foTLhq8LrahMhg/formResponse" method="post" onsubmit="myFunction()" target="hidden_iframe">
-                <input class="urlinput" id="url_input" type="url" placeholder="🔗 Paste URL" name="entry.206952497" required>
-                <br><br>
-                < <input class="nameinput" id="name_input" type="text" placeholder="👤 Enter name" name="entry.206952497" required> 
-                <br><br>
-                <input class="emailinput" id="email_input" type="email" placeholder="📧 Enter Email" name="entry.186721469" required>
-                <br><br>
-                <input class="priceinput" id="price_input" type="number" placeholder="&#8377 Target Price"
-                    name="entry.232601769" required><br><br>
-                   - <<button type="submit" onsubmit="myFunction()"><a href="">submit</a> </button> -->
-                <!-- <input type="submit"  value="Submit" class="searchbutton" name="button">
-                -- <button type="button" onclick="myFunction()" value="Submit" name="button"><a href="./landingpage.html">submit</a></button> -->
-            <!-- </form>
-        </div>
-    </div> -->
-
 <a href="./landingpage.html"> <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
     onload="if(submitted){window.location='./landingpage.html'}"></iframe></a>
 
@@ -111,7 +73,15 @@ action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSepAUE7_7EXgi67QwcDEl3QuAx6
           <span class="input-group-text" id="basic-addon1"> @</span>
           <input type="email" class="form-control emailinput" placeholder="Email" id="email_input" aria-label="Username" aria-describedby="basic-addon1" name="entry.186721469" required>
         </div>
+  <br>
 
+        <label for="basic-url" class="form-label">Enter Price</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"> 💹</span>
+            <input type="number" class="form-control priceinput" placeholder="Price" id="price_input" aria-label="Username" aria-describedby="basic-addon1" name="entry.232601769" required>
+          </div>
+
+        
         <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
             <label class="form-check-label" for="flexSwitchCheckDefault">I agree the terms and conditions.</label>
